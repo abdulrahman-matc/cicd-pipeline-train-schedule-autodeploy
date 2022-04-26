@@ -24,12 +24,12 @@ spec:
   selector:
     matchLabels:
       app: train-schedule
-      track: stable
+      track: no-issues
   template:
     metadata:
       labels:
         app: train-schedule
-        track: stable
+        track: no-issues
     spec:
       containers:
       - name: train-schedule
